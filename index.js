@@ -14,7 +14,9 @@ $(".button1").click(function () {
     $(".button1").attr("class", "disabled");
 
     if (button1Clicked && button2Clicked) {
-        //declareResult();
+         $(".img1").on("load", function () {
+            declareResult();
+        });
     }
 });
 
@@ -29,7 +31,9 @@ $(".button2").click(function () {
     $(".button2").attr("class", "disabled");
 
     if (button1Clicked && button2Clicked) {
-        //declareResult();
+         $(".img2").on("load", function () {
+            declareResult();
+        });
     }
 });
 
