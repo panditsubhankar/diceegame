@@ -14,14 +14,7 @@ $(".button1").click(function () {
     $(".button1").attr("class", "disabled");
 
     if (button1Clicked && button2Clicked) {
-        declareResult();
-        // if (randomNumber1 > randomNumber2) {
-        // $("h1").text("Player 1 Wins");
-        // } else if (randomNumber1 < randomNumber2) {
-        // $("h1").text("Player 2 Wins");
-        // } else {
-        // $("h1").text("Its a Draw");
-        // }
+        //declareResult();
     }
 });
 
@@ -36,14 +29,7 @@ $(".button2").click(function () {
     $(".button2").attr("class", "disabled");
 
     if (button1Clicked && button2Clicked) {
-        declareResult();
-        // if (randomNumber1 > randomNumber2) {
-        //     $("h1").text("Player 1 Wins");
-        //     } else if (randomNumber1 < randomNumber2) {
-        //     $("h1").text("Player 2 Wins");
-        //     } else {
-        //     $("h1").text("Its a Draw");
-        //     }
+        //declareResult();
     }
 });
 
